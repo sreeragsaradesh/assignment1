@@ -1,5 +1,5 @@
 package ozlympic;
-
+/* here the points class would be inheriting from Ozlympic */
 public class Points extends Ozlympic {
 	private Athlete athlete[] = new Athlete[26];
 	public  String cwinner1Id = null, cwinner2Id = null, cwinner3Id = null;
@@ -20,7 +20,7 @@ public class Points extends Ozlympic {
 		this.rwinner2Id = rwinner2Id;
 		this.rwinner3Id = rwinner3Id;
 		}
-	
+	/* the method would help to calculate the points scored by the players during the game*/
 	public void calculatePoints() {
 
 		//System.out.println(rwinner1Id + "-" + rwinner2Id + "-" + rwinner3Id + " " + swinner1Id + "-" + swinner2Id + "-"
