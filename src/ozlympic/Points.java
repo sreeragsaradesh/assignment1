@@ -1,5 +1,5 @@
 package ozlympic;
-
+/* The points class is inheriting the ozlympic class */
 public class Points extends Ozlympic {
 	private Athlete athlete[] = new Athlete[26];
 	public  String cwinner1Id = null, cwinner2Id = null, cwinner3Id = null;
