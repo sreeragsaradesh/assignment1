@@ -100,7 +100,7 @@ public class Ozlympic {
 		
 		
 	}
-	
+	//select game
 	public static void selectGame() {
 		
 		int input = 0;
