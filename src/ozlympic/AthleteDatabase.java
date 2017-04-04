@@ -5,7 +5,7 @@ public class AthleteDatabase extends Ozlympic{
 	
 	private static Athlete athlete[];
 	
-	
+	/* This is the Database which we would be using to store the data regarding the players */
 
 	public AthleteDatabase(){
 		
