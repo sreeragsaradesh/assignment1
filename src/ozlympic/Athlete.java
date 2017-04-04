@@ -78,7 +78,7 @@ public class Athlete {
 	public void setPoints(int points) {
 		Points = points;
 	}
-
+//compete  method
 	public void compete(int minTimer, int maxTimer){
 		Random random = new Random();
 		int finishTimer = random.nextInt(maxTimer-minTimer)+minTimer;
